@@ -1,0 +1,2 @@
+a = mabel 
+print(a)
