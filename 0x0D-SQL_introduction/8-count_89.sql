@@ -1,3 +1,3 @@
--- a sript that displays the number of recorde with id=89 in the table first_table in the MySQL server
-
-SELECT COUNT (*) FROM first_table WHERE id=89;
+-- count and display number of records where id=89
+-- in first_table
+SELECT COUNT(id) FROM first_table WHERE id = 89;
