@@ -2,7 +2,7 @@
 const myVar = 'C is fun';
 const x = process.argv[2];
 const num = parseInt(x);
-if (typeof num !== 'number' || isNaN(num) || num < 0) {
+if (typeof num !== 'number' || isNaN(num)) {
   console.log('Missing number of occurrences');
 } else {
   for (let i = 0; i < num; i++) {
