@@ -12,5 +12,5 @@ if __name__ == " __main__":
 	for state in states:
 
 		print(states)
-	cusor.close()
+	cur.close()
 	db.close()
