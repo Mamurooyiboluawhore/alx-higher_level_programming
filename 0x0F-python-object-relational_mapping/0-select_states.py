@@ -10,7 +10,6 @@ if __name__ == " __main__":
 	cur.execute("SELECT * FROM  states ORDER BY id ASC;")
 	states = cur.fetchall()
 	for state in states:
-
 		print(states)
 	cur.close()
 	db.close()
