@@ -2,5 +2,5 @@
 """ a script that writes an empty class called square"""
 
 
-class Square():
+class Square:
     pass
